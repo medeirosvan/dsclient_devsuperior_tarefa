@@ -1,0 +1,10 @@
+insert into TB_CLIENT (name, cpf, income, birth_date, children) values ('Vanessa Medeiros', '26432511801',10000.0, TIMESTAMP WITH TIME ZONE '1977-03-25T10:00:00Z', 3);
+insert into TB_CLIENT (name, cpf, income, birth_date, children) values ('João Dark', '12345678901',12000.0, TIMESTAMP WITH TIME ZONE '1980-01-15T10:00:00Z', 0);
+insert into TB_CLIENT (name, cpf, income, birth_date, children) values ('Alex Brown', '12345678902',11000.0, TIMESTAMP WITH TIME ZONE '1975-09-22T10:00:00Z', 1);
+insert into TB_CLIENT (name, cpf, income, birth_date, children) values ('Ligia Green', '12345678903',9000.0, TIMESTAMP WITH TIME ZONE '1972-02-01T10:00:00Z', 2);
+insert into TB_CLIENT (name, cpf, income, birth_date, children) values ('Bob Brown', '12345678904',8000.0, TIMESTAMP WITH TIME ZONE '1970-05-07T10:00:00Z', 2);
+insert into TB_CLIENT (name, cpf, income, birth_date, children) values ('Dennis Grey', '12345678905',10000.0, TIMESTAMP WITH TIME ZONE '1982-04-30T10:00:00Z', 1);
+insert into TB_CLIENT (name, cpf, income, birth_date, children) values ('Susan Yellow', '12345678906',15000.0, TIMESTAMP WITH TIME ZONE '1967-09-26T10:00:00Z', 0);
+insert into TB_CLIENT (name, cpf, income, birth_date, children) values ('Bia Red', '12345678907',5000.0, TIMESTAMP WITH TIME ZONE '1974-12-03T10:00:00Z', 4);
+insert into TB_CLIENT (name, cpf, income, birth_date, children) values ('Down Jones', '12345678908',18000.0, TIMESTAMP WITH TIME ZONE '1980-11-07T10:00:00Z', 0);
+insert into TB_CLIENT (name, cpf, income, birth_date, children) values ('Bob Marley', '12345678909',6000.0, TIMESTAMP WITH TIME ZONE '1977-02-12T10:00:00Z', 3);

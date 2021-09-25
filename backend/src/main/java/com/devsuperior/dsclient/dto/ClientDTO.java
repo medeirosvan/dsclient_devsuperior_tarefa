@@ -3,8 +3,6 @@ package com.devsuperior.dsclient.dto;
 import java.io.Serializable;
 import java.time.Instant;
 
-import javax.persistence.Column;
-
 import com.devsuperior.dsclient.entities.Client;
 
 public class ClientDTO  implements Serializable {

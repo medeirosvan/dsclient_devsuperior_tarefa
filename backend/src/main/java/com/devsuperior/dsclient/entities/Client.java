@@ -14,20 +14,20 @@ import javax.persistence.Table;
 @Table(name = "tb_client")
 public class Client implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	
+
 	private String name;
 	private String cpf;
 	private Double income;
-	
+
 	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
 	private Instant birthDate;
-	
+
 	private Integer children;
-	
+
 	public Client() {
 	}
 
@@ -100,9 +100,7 @@ public class Client implements Serializable {
 	public boolean equals(Object obj) {
 		if (this == obj)
 			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
+		if ((obj == null) || (getClass() != obj.getClass()))
 			return false;
 		Client other = (Client) obj;
 		if (id == null) {

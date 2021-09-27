@@ -24,7 +24,7 @@ import com.devsuperior.dsclient.services.ClientService;
 @RestController
 @RequestMapping(value="/clients")
 public class ClientResource {
-	
+
 	@Autowired
 	private ClientService service;
 
@@ -38,7 +38,7 @@ public class ClientResource {
 		PageRequest pageRequest = PageRequest.of(page, linesPerPage, Direction.valueOf(direction), orderBy);
 
 		Page<ClientDTO> list = service.findAllPaged(pageRequest);
-		
+
 		return ResponseEntity.ok().body(list);
 	}
 
